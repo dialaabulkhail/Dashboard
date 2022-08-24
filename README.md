@@ -57,3 +57,10 @@ You can download the below zipped file to your **data** folder:
 - Starting with the main file, import: useEffect hook from react, browser router, routes and route from react-router-dom.
 - import a tool Tip Component from syncfusion `import { TooltipComponent } from '@syncfusion/ej2-react-popups'` .
 - start with the code [From here](./src/App.js)
+
+_____
+
+## Resources
+- [https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
+- [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
+- 
