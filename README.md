@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Building React dashboard
+## Setup 
+1. create react app `npx create-react-app .` .
+2. delete unnecessary files inside **src** folder and keep **index.js/index.css** and **app.js/app.css** .
+3. import `import ReactDOM from 'react-dom';` in **index.js** file --> to hook your react application to the real dom.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Note
 
-## Available Scripts
+when creating a react application your installing two main packages: **react** which is responsible for:
+- the logic part of each components.
+- building components and their structure.
+- states and hooks..
 
-In the project directory, you can run:
+the other one is **react dom**, which is mainly responsible for reflecting what react does to the user, and it consists of a **virtual dom** and a **real dom**:
+- any updates or changes that happens is reflected on the virtual dom first.
+- then once the updated component is specified, the changes happen on th real dom.
 
-### `npm start`
+this means that the real dom does not get re-built on every update which optimizes the work of the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Run the application `npm start` .
+________
+## Dependencies 
+After setting up your project, you have to install some dependencies, and for that you can copy any extra dependency in the following content of **package.json** and paste it in your own file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Package.json](https://github.com/adrianhajdin/project_syncfusion_dashboard/blob/main/package.json)
 
-### `npm test`
+- To make sure you have installed all right dependencies, run `npm install --legacy-peer-deps`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Syncfusion
+A modern JavaScript UI toolkit that has been built from the ground up to be lightweight, responsive, modular and touch friendly. It is written in TypeScript and has no external dependencies.
 
-### `npm run build`
+[syncfusion documentation](https://help.syncfusion.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tailwind CSS 
+Follow the steps in here starting from step#2 to install the Tailwind CSS framework for styling.. don't forget to import it in the **index.css** file!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app)
 
-### `npm run eject`
+- Check **App.css** file to implement basic styling before you start.
+_____
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Code
+### Structure
+All of the folders are going to be in the project folder **src**
+- **components** 
+- **contexts** --> to use react context api
+- **pages** --> like components but, in components floder, a component cannot be rendered or used inside another, unlike pages folder, where it holds component that can include more componenets.
+- **data** --> will include images and demo data to use in the entire application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can download the below zipped file to your **data** folder:
+[data example](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2Fadrianhajdin%2Fproject_syncfusion_dashboard%2Ftree%2Fmain%2Fsrc%2Fdata)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **dummy.js** file --> contains a collection of arrays and objects that represent the data like positions and charts, titles and descriptions, we will import it in most components. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### App.js
+- Starting with the main file, import: useEffect hook from react, browser router, routes and route from react-router-dom.
+- import a tool Tip Component from syncfusion `import { TooltipComponent } from '@syncfusion/ej2-react-popups'` .
+- start with the code [From here](./src/App.js)
