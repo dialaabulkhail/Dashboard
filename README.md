@@ -66,19 +66,17 @@ Start creating these components:
 - ThemeSettings
 - Footer
 
-
 > Note
 
 You have to export the components in order to use them globaly, so you can create an **index.jsx** inside the **component** and **pages** folders and export each file like this: `export { default as Sidebar } from './Sidebar';`
+[Components](./src/components/)
 
 ### Pages
-Same as the components exports, you have to create an **index.jsx** file, as well as the charts folder and some other pages..
-- 
-- 
-- 
-
+Same as the components exports, you have to create an **index.jsx** file, as well as the charts folder and some other pages
+[Pages](./src/pages/)
 _____
 
 ## Resources
 - [https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
 - [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
+- [Sidebar transition](https://www.w3schools.com/howto/howto_js_sidenav.asp)

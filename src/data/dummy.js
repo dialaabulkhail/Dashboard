@@ -22,6 +22,7 @@ import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
 import product8 from './product8.jpg';
+import { IoHomeOutline } from 'react-icons/io5'
 
 export const gridOrderImage = (props) => (
   <div>
@@ -475,7 +476,7 @@ export const links = [
     links: [
       {
         name: 'home',
-        icon: <FiShoppingBag />,
+        icon: <IoHomeOutline />,
       },
     ],
   },
