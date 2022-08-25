@@ -76,7 +76,13 @@ Same as the components exports, you have to create an **index.jsx** file, as wel
 [Pages](./src/pages/)
 _____
 
+## Upcoming
+- Sidebar auto closing after clicking, according to screen width
+
+_____
+
 ## Resources
 - [https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
 - [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
 - [Sidebar transition](https://www.w3schools.com/howto/howto_js_sidenav.asp)
+- [Dropdown menu](https://tailwindui.com/components/application-ui/elements/dropdowns)

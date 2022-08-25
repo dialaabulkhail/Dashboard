@@ -3,12 +3,11 @@ import React from "react";
 //  to allow us switch between pages
 import { Link, NavLink } from "react-router-dom";
 import { VscClose } from "react-icons/vsc";
-
 import { links } from "../data/dummy";
-import { useState } from "react";
+
 
 const Sidebar = ({ SideMenu, setSideMenu }) => {
-  return (
+  return (  
     <div className="h-screen pb-10 ml-4">
       {SideMenu && (
         <>
@@ -44,6 +43,7 @@ const Sidebar = ({ SideMenu, setSideMenu }) => {
                     to={`/${link.name}`}
                     key={link.name}
                     onClick={() => {}}
+                    
                   >
                     <h1 className="rounded cursor-pointer hover:shadow-sm max-w-[200px] ease-in-out duration-200  text-gray-600 p-2 flex shadow-black">
                       <span className="px-3 pt-1">{link.icon} </span> {link.name}
