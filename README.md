@@ -58,9 +58,27 @@ You can download the below zipped file to your **data** folder:
 - import a tool Tip Component from syncfusion `import { TooltipComponent } from '@syncfusion/ej2-react-popups'` .
 - start with the code [From here](./src/App.js)
 
+### Components
+In the **components** folder you can add a charts folder, as well as any other **jsx** component.
+Start creating these components:
+- Navbar
+- Sidebar
+- ThemeSettings
+- Footer
+
+
+> Note
+
+You have to export the components in order to use them globaly, so you can create an **index.jsx** inside the **component** and **pages** folders and export each file like this: `export { default as Sidebar } from './Sidebar';`
+
+### Pages
+Same as the components exports, you have to create an **index.jsx** file, as well as the charts folder and some other pages..
+- 
+- 
+- 
+
 _____
 
 ## Resources
 - [https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
 - [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
-- 
