@@ -19,7 +19,7 @@ const Navbar = ({ SideMenu, setSideMenu }) => {
   const [profile, setProfile] = useState(false);
 
   return (
-    <div className="flex justify-between h-15">
+    <div className="flex justify-between w-full h-15">
       <div>
         <button onClick={() => setSideMenu(true)}>
           {SideMenu ? (
@@ -96,7 +96,7 @@ const Navbar = ({ SideMenu, setSideMenu }) => {
         </div>
 
         {profile && (
-          <div className="absolute w-40 mt-10 rounded-md shadow-md right-2 top-4 bg-white/40">
+          <div className="absolute w-40 mt-10 rounded-md shadow-md right-2 top-4 bg-white/40" >
             <div className="py-1" role="none">
               <a
                 href="/"

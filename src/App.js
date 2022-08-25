@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { IoSettingsOutline } from "react-icons/io5";
-// import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
 // from components
 import { Navbar, Sidebar, Footer, ThemeSettings } from "./components";
@@ -63,7 +62,7 @@ function App() {
             <div className="fixed w-full md:static bg-main-bg dark:bg-main-bg-dark navbar">
               <Navbar SideMenu={SideMenu} setSideMenu={setSideMenu} />
             </div>
-          </div>
+          
 
           {/* routing -> A container for a nested tree of elements that renders the branch that best matches the current location. */}
           <div>
@@ -95,6 +94,7 @@ function App() {
                 <Route path="/pyramid" element="Pyramid"/>
                 <Route path="/stacked" element="Stacked"/> */}
             </Routes>
+          </div>
           </div>
         </div>
       </BrowserRouter>
