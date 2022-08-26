@@ -16,6 +16,7 @@ const Home = () => {
                 <a href="/#revenue">Check Revenues</a>
               </button>
             </div>
+            <p className="pr-20 tracking-widest text-white text-8xl">Company</p>
           </div>
         </div>
       </div>

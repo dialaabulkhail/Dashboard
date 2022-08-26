@@ -78,9 +78,16 @@ _____
 
 ## Upcoming
 - Sidebar auto closing after clicking, according to screen width
-
+- More charts using SyncFusion
 _____
 
+## Demo
+![Home](./src//data//home.jpg)
+
+![Revenu](./src//data//revenu.jpg)
+
+
+____
 ## Resources
 - [https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
 - [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
