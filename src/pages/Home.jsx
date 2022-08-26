@@ -7,15 +7,16 @@ const Home = () => {
   return (
     <div className="h-full m-10 mt-20 bg-white rounded-lg dark:text-white dark:bg-second-bg-dark lg:mt-10">
       <div className="flex justify-center">
-        <div className="w-full m-3 mt-10 bg-white bg-center bg-cover h-60 dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl bg-hero-pattern p-9">
+        <div className="w-full m-3 mt-10 bg-white bg-center bg-cover h-60 dark:text-gray-200 dark:bg-secondary-dark-bg rounded-xl bg-second-pattern p-9 lg:bg-hero-pattern">
           <div className="flex items-center justify-between text-center">
-            <div className="px-12 py-3 text-lg text-white rounded-lg bg-white/50">
+            <div className="px-12 py-3 text-lg text-white rounded-lg bg-gray-500/60 lg:bg-white/50">
               <p className="text-sm ">Earnings</p>
-              <p className="text-2xl text-gray-600">$1,000,000+</p>
-              <button className="p-3 mt-3 duration-200 ease-in-out rounded-lg bg-cyan-700/60 hover:bg-transparent">
+              <p className="text-2xl text-white lg:text-gray-600">$1,000,000+</p>
+              <button className="p-3 mt-3 duration-200 ease-in-out rounded-lg lg:bg-cyan-700/60 hover:bg-transparent bg-cyan-700/80">
                 <a href="/#revenue">Check Revenues</a>
               </button>
             </div>
+            <p className="hidden pr-20 tracking-widest text-white text-8xl lg:flex">Company</p>
           </div>
         </div>
       </div>
