@@ -59,7 +59,7 @@ function App() {
           >
             {/* navbar */}
 
-            <div className="fixed w-full md:static bg-main-bg dark:bg-main-bg-dark navbar">
+            <div className="fixed w-full md:static dark:bg-main-bg-dark navbar bg-main-bg ">
               <Navbar SideMenu={SideMenu} setSideMenu={setSideMenu} />
             </div>
           
@@ -98,6 +98,7 @@ function App() {
           </div>
         </div>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
