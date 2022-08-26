@@ -86,6 +86,7 @@ _____
 
 ![Revenu](./src//data//revenu.jpg)
 
+![Home page on small/medium screen](./src/data/medium.jpg)
 
 ____
 ## Resources
