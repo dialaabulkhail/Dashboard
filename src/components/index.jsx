@@ -8,3 +8,4 @@ export { default as Header } from './Header';
 export { default as Cart } from './Cart';
 export { default as Button } from './Button';
 export { default as ChartsHeaders } from './ChartsHeaders';
+export { default as Stacked } from './Charts/Stacked'

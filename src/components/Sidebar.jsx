@@ -8,7 +8,7 @@ import { links } from "../data/dummy";
 
 const Sidebar = ({ SideMenu, setSideMenu }) => {
   return (  
-    <div className="h-screen pb-10 ml-4">
+    <div className="h-screen pb-10 ml-4 ">
       {SideMenu && (
         <>
           <div className="flex items-center justify-between">

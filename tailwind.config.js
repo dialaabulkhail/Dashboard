@@ -10,10 +10,11 @@ module.exports = {
         'second-bg-dark': '#33373E',
         'light-gray': '#F7F7F7',
         'half-transparent': 'rgba(0,0,0,0.5)',
+        'navColor': '#afeeee'
       },
       backgroundImage: {
         'hero-pattern':
-          "url('https://img.freepik.com/free-vector/diverse-people-team-work-with-analytic-data-dashboard-with-graphs-charts-vector-flat-illustration-business-analysis-teamwork-multiracial-employees_107791-10485.jpg?w=996&t=st=1661459535~exp=1661460135~hmac=804249ae4a0ad25e448834b795d72c0750a76a4390bf05449ab358bbef60f53a')",
+          "url('https://images.unsplash.com/photo-1654793182455-83e2a50f3494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&q=80')",
       },
     },
   },

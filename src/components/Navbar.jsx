@@ -96,7 +96,7 @@ const Navbar = ({ SideMenu, setSideMenu }) => {
         </div>
 
         {profile && (
-          <div className="absolute w-40 mt-10 rounded-md shadow-md right-2 top-4 bg-white/40" >
+          <div className="absolute w-40 mt-10 bg-white rounded-md shadow-md right-2 top-4" >
             <div className="py-1" role="none">
               <a
                 href="/"
@@ -119,11 +119,14 @@ const Navbar = ({ SideMenu, setSideMenu }) => {
             </div>
           </div>
         )}
-      </div>
-
-      {CartClicked && <Cart />}
+  <div>
+        {CartClicked && <Cart />}
       {ChatClicked && <Chat />}
       {NotificationClicked && <Notification />}
+        </div>
+      </div>
+    
+
     </div>
   );
 };

@@ -86,3 +86,4 @@ _____
 - [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
 - [Sidebar transition](https://www.w3schools.com/howto/howto_js_sidenav.asp)
 - [Dropdown menu](https://tailwindui.com/components/application-ui/elements/dropdowns)
+- [React icons](https://react-icons.github.io/react-icons)

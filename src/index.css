@@ -6,12 +6,12 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  scroll-behavior: smooth;
 }
 
 #sidemenu {
   overflow-x: hidden; 
-  transition: 0.5s; 
+  transition: 1s; 
 }
 
 
