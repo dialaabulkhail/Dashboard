@@ -88,10 +88,18 @@ _____
 
 ![Home page on small/medium screen](./src/data/medium.jpg)
 
+![calendar](./src/data/calendar.jpg)
+
+![editor](./src/data/editor.jpg)
+
+![planner](./src/data/planner.jpg)
+
+
 ____
 ## Resources
 - [https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
 - [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
+- [get started with Syncfusion](https://ej2.syncfusion.com/react/documentation/getting-started/quick-start/)
 - [Sidebar transition](https://www.w3schools.com/howto/howto_js_sidenav.asp)
 - [Dropdown menu](https://tailwindui.com/components/application-ui/elements/dropdowns)
 - [React icons](https://react-icons.github.io/react-icons)

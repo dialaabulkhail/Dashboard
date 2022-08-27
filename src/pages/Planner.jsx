@@ -10,7 +10,7 @@ import { Header } from "../components";
 
 const Planner = () => (
   <div className="p-2 m-2 mt-24 bg-white md:m-10 md:p-10 rounded-3xl">
-    <Header category="App" title="Kanban" />
+    <Header  title="Planner" />
     <div className="m-3">
       <KanbanComponent
         id="kanban"
