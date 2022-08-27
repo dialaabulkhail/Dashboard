@@ -1,4 +1,8 @@
+# [Live Demo](https://diala-dashboard.netlify.app/)
+
+
 # Building React dashboard
+
 ## Setup 
 1. create react app `npx create-react-app .` .
 2. delete unnecessary files inside **src** folder and keep **index.js/index.css** and **app.js/app.css** .
@@ -44,7 +48,6 @@ _____
 ### Structure
 All of the folders are going to be in the project folder **src**
 - **components** 
-- **contexts** --> to use react context api
 - **pages** --> like components but, in components floder, a component cannot be rendered or used inside another, unlike pages folder, where it holds component that can include more componenets.
 - **data** --> will include images and demo data to use in the entire application
 
@@ -54,8 +57,6 @@ You can download the below zipped file to your **data** folder:
 - **dummy.js** file --> contains a collection of arrays and objects that represent the data like positions and charts, titles and descriptions, we will import it in most components. 
 
 ### App.js
-- Starting with the main file, import: useEffect hook from react, browser router, routes and route from react-router-dom.
-- import a tool Tip Component from syncfusion `import { TooltipComponent } from '@syncfusion/ej2-react-popups'` .
 - start with the code [From here](./src/App.js)
 
 ### Components
@@ -94,11 +95,16 @@ _____
 
 ![planner](./src/data/planner.jpg)
 
+_____
 
-____
+## Deployment
+This app was deployed using [Netifly](https://www.netlify.com/)
+
+[Deployed Link](https://diala-dashboard.netlify.app/)
+_____
 ## Resources
-- [https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
-- [https://github.com/adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard)
+- [Youtube](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PLquu0CWhh4T7r9eKhvbhv44BFP0pCXFVC&index=39&t=75s&ab_channel=JavaScriptMastery)
+- [github](https://github.com/adrianhajdin/project_syncfusion_dashboard)
 - [get started with Syncfusion](https://ej2.syncfusion.com/react/documentation/getting-started/quick-start/)
 - [Sidebar transition](https://www.w3schools.com/howto/howto_js_sidenav.asp)
 - [Dropdown menu](https://tailwindui.com/components/application-ui/elements/dropdowns)
