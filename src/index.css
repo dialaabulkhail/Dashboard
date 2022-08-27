@@ -11,9 +11,8 @@ body {
 
 #sidemenu {
   overflow-x: hidden; 
-  transition: 1s; 
+  transition: 0.8s; 
 }
-
 
 
 @tailwind base;

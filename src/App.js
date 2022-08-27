@@ -1,7 +1,4 @@
-import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { IoSettingsOutline } from "react-icons/io5";
-
 // from components
 import { Navbar, Sidebar, Footer, ThemeSettings } from "./components";
 
@@ -9,9 +6,9 @@ import { Navbar, Sidebar, Footer, ThemeSettings } from "./components";
 import {
   Home,
   Orders,
-  Calendar,
+  Planner,
   Customers,
-  ColorPicker,
+  Calendar,
   Editor,
   Employees,
 } from "./pages";
@@ -26,19 +23,6 @@ function App() {
     <div>
       <BrowserRouter>
         <div className="relative flex dark:bg-main-bg-dark">
-          <div className="fixed right-4 bottom-4">
-            {/* settings icon */}
-            <button
-              type="button"
-              className="p-2 text-xl text-white rounded-full hover:scale-105"
-              style={{
-                background: "gray",
-              }}
-            >
-              <IoSettingsOutline />
-            </button>
-          </div>
-
           {/* side main menu */}
           {SideMenu ? (
             <div
@@ -62,39 +46,25 @@ function App() {
             <div className="fixed w-full md:static dark:bg-main-bg-dark navbar bg-main-bg ">
               <Navbar SideMenu={SideMenu} setSideMenu={setSideMenu} />
             </div>
-          
 
-          {/* routing -> A container for a nested tree of elements that renders the branch that best matches the current location. */}
-          <div>
-            <Routes>
-              {/* main dashboard */}
-              <Route path="/" element={<Home />} />
-              <Route path="/home" element={<Home />} />
-             
+            {/* routing -> A container for a nested tree of elements that renders the branch that best matches the current location. */}
+            <div>
+              <Routes>
+                {/* main dashboard */}
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
 
+                {/* pages */}
+                <Route path="/orders" element={<Orders />} />
+                <Route path="/employees" element={<Employees />} />
+                <Route path="/customers" element={<Customers />} />
 
-              {/* pages */}
-              <Route path="/orders" element={<Orders />} />
-              <Route path="/employees" element={<Employees />} />
-              <Route path="/customers" element={<Customers />} />
-
-              {/* Apps */}
-              {/* <Route path="/kanban" element="Kanban"/> */}
-              <Route path="/editor" element={<Editor />} />
-              <Route path="/calendar" element={<Calendar />} />
-              <Route path="/color-picker" element={<ColorPicker />} />
-
-              {/* Charts */}
-              {/* <Route path="/line" element="Line"/>
-                <Route path="/area" element="Area"/>
-                <Route path="/bar" element="Bar"/>
-                <Route path="/pie" element="Pie"/>
-                <Route path="/financial" element="Financial"/>
-                <Route path="/color-mapping" element="ColorMapping"/>
-                <Route path="/pyramid" element="Pyramid"/>
-                <Route path="/stacked" element="Stacked"/> */}
-            </Routes>
-          </div>
+                {/* Apps */}
+                <Route path="/editor" element={<Editor />} />
+                <Route path="/planner" element={<Planner />} />
+                <Route path="/calendar" element={<Calendar />} />
+              </Routes>
+            </div>
           </div>
         </div>
       </BrowserRouter>
