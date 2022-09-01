@@ -7,7 +7,7 @@ import {
   Home,
   Orders,
   Planner,
-  Customers,
+  Charts,
   Calendar,
   Editor,
   Employees,
@@ -57,7 +57,7 @@ function App() {
                 {/* pages */}
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
-                <Route path="/customers" element={<Customers />} />
+                <Route path="/charts" element={<Charts />} />
 
                 {/* Apps */}
                 <Route path="/editor" element={<Editor />} />
