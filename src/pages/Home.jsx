@@ -2,6 +2,7 @@ import React from "react";
 import { earningData } from "../data/dummy";
 import { GoPrimitiveDot } from "react-icons/go";
 import { Stacked } from "../components";
+import {ChartDraft} from '../components'
 
 const Home = () => {
   return (
@@ -77,9 +78,12 @@ const Home = () => {
             </div>
 
             {/* stacked chart */}
-            <Stacked width="320px" height="360px" />
+            {/* <Stacked width="400px" height="360px" /> */}
+            
+          <ChartDraft width="400px" height="360px"/>
           </div>
         </div>
+        
       </div>
     </div>
   );

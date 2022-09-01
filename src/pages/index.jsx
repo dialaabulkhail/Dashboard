@@ -4,6 +4,8 @@ export { default as Employees } from './Employees';
 export { default as Editor } from './Editor';
 export { default as Calendar } from './Calendar';
 export { default as Planner } from './Planner';
-export { default as Customers} from './Customers'
+export { default as Charts} from './Charts'
+
+
 
 // this file is going to help us import everything in one line 

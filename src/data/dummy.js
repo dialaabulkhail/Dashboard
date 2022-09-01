@@ -493,7 +493,7 @@ export const links = [
         icon: <IoMdContacts />,
       },
       {
-        name: 'Customers',
+        name: 'Charts',
         icon: <RiContactsLine />,
       },
     ],
@@ -3115,22 +3115,22 @@ export const ecomPieChartData = [
 
 export const stackedChartData = [
   [
-    { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
-    { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
-    { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Aug-30', y: 9.1 },
+    { x: 'Sep-05', y: 12.3 },
+    { x: 'Sep-10', y: 14.4 },
+    { x: 'Sep-15', y: 15.9 },
+    { x: 'Sep-20', y: 15.9 },
+    { x: 'Sep-25', y: 14.9 },
+    { x: 'Sep-30', y: 13.9 },
   ],
   [
-    { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
-    { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
-    { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Aug-30', y: 15.1 },
+    { x: 'Sep-05', y: 14.3 },
+    { x: 'Sep-10', y: 15.4 },
+    { x: 'Sep-15', y: 21.9 },
+    { x: 'Sep-20', y: 18.9 },
+    { x: 'Sep-25', y: 19.9 },
+    { x: 'Sep-30', y: 16.9 },
   ],
 ];
 
@@ -3169,9 +3169,9 @@ export const stackedPrimaryXAxis = {
 
 export const stackedPrimaryYAxis = {
   lineStyle: { width: 0 },
-  minimum: 100,
-  maximum: 400,
-  interval: 100,
+  minimum: 5,
+  maximum: 50,
+  interval: 10,
   majorTickLines: { width: 0 },
   majorGridLines: { width: 1 },
   minorGridLines: { width: 1 },
